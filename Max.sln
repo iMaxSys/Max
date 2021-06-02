@@ -3,9 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31320.298
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98A93017-299D-43FC-982C-58E3A736008A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8A05F72E-A04B-43F8-AB36-3FE189686AAC}"
+	ProjectSection(SolutionItems) = preProject
+		docs\readme.txt = docs\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{4A41702A-F092-466C-A169-8325532D1862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMaxSys.Max", "src\iMaxSys.Max\iMaxSys.Max.csproj", "{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMaxSys.Identity", "src\iMaxSys.Identity\iMaxSys.Identity.csproj", "{A7E40772-945F-47B0-8C1A-8765C0C5A767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMaxSys.Pay", "src\iMaxSys.Pay\iMaxSys.Pay.csproj", "{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMaxSys.Sns", "src\iMaxSys.Sns\iMaxSys.Sns.csproj", "{A39E9C38-3B5D-400E-915A-ADB4D8968DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMaxSys.Message", "src\iMaxSys.Message\iMaxSys.Message.csproj", "{3F20B601-2738-45B4-8E12-678124BC9B6F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E40772-945F-47B0-8C1A-8765C0C5A767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E40772-945F-47B0-8C1A-8765C0C5A767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E40772-945F-47B0-8C1A-8765C0C5A767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E40772-945F-47B0-8C1A-8765C0C5A767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39E9C38-3B5D-400E-915A-ADB4D8968DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39E9C38-3B5D-400E-915A-ADB4D8968DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39E9C38-3B5D-400E-915A-ADB4D8968DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39E9C38-3B5D-400E-915A-ADB4D8968DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F20B601-2738-45B4-8E12-678124BC9B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F20B601-2738-45B4-8E12-678124BC9B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F20B601-2738-45B4-8E12-678124BC9B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F20B601-2738-45B4-8E12-678124BC9B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8EE3CD1-C49D-4540-8BF2-E780E6741EA2} = {98A93017-299D-43FC-982C-58E3A736008A}
+		{A7E40772-945F-47B0-8C1A-8765C0C5A767} = {98A93017-299D-43FC-982C-58E3A736008A}
+		{13CCBDE3-F9E3-4EEF-B54A-B8E7C7B0EED6} = {98A93017-299D-43FC-982C-58E3A736008A}
+		{A39E9C38-3B5D-400E-915A-ADB4D8968DBA} = {98A93017-299D-43FC-982C-58E3A736008A}
+		{3F20B601-2738-45B4-8E12-678124BC9B6F} = {98A93017-299D-43FC-982C-58E3A736008A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE91513F-17BF-47C1-B235-91C04C8FACD2}
