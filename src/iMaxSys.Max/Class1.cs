@@ -3,7 +3,7 @@
 namespace iMaxSys.Max
 {
     /// <summary>
-	/// ab
+	/// abfdfg
 	/// </summary>
     public class Class1
     {
